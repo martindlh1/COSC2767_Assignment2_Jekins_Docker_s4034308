@@ -1,3 +1,4 @@
+#install docker
 sudo yum install -y docker
 
 #start docker

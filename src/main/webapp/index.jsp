@@ -14,7 +14,7 @@
       <h1 class="display-4">This is the Assignment 2!</h1>
       <p>Show these steps in the video recording:</p>
       <p>
-        <span class="badge badge-info">Step 1</span> Please fork this github repository to your own github (with your RMIT's email account)!
+        <span class="badge badge-info">Step 10</span> Please fork this github repository to your own github (with your RMIT's email account)!
       </p>
       <p>
         <span class="badge badge-info">Step 2</span> Setup the pipeline as required in the assignment specification!

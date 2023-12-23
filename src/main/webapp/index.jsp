@@ -38,7 +38,7 @@
       <br>
       <span class="badge badge-success">Computer Science</span>
       <br>
-      <span class="badge badge-danger">Read, Video Games & Beer</span>
+      <span class="badge badge-danger">Read, Video Games & Beers</span>
       <br>
       <span class="badge badge-warning">C</span>
       <!-- You only need to change these information, ends here! -->

@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'main', url: 'https://github.com/martindlh1/cosc2767-assignment2-website.git'
+                git branch: 'main', url: 'https://github.com/martindlh1/COSC2767_Assignment2_Jekins_Docker_s4034308'
 
                 // Run Maven on a Unix agent.
                 sh "mvn clean install"

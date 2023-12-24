@@ -22,7 +22,7 @@ pipeline {
                 continueOnError: false, failOnError: true,
                 publishers: [
                     sshPublisherDesc(
-                        configName: "docker-server",
+                        configName: "tomcat-server",
                         verbose: true,
                         transfers: [
                             sshTransfer(

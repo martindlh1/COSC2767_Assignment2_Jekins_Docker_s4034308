@@ -26,7 +26,7 @@ pipeline {
                         verbose: true,
                         transfers: [
                             sshTransfer(
-                                execCommand: "cd /home/dockeradmin;docker build -t tomcat-image .;docker stop tomcat-container;docker rm tomcat-container;docker run -d --name tomcat-container -p 8081:8080 tomcat-image",
+                                execCommand: "cd /home/dockeradmin;docker build -t tomcat-image .;docker stop tomcat-container;docker rm tomcat-container;docker run -d --name tomcat-container -p 8080:8080 tomcat-image",
                                 sourceFiles: "target/*.war",
                                 removePrefix: "target"
                                 )
